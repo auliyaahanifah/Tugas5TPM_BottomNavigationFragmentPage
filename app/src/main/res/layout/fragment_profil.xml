@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProfilFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:gravity="center"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/chewy"
+            android:layout_marginHorizontal="16dp"
+            android:layout_marginTop="6dp"
+            android:text="Nama"
+            android:textSize="20sp"
+            android:layout_marginBottom="0sp"
+            android:textColor="@color/black"
+            />
+        <EditText
+            android:id="@+id/nama"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="16dp"
+            android:layout_marginTop="6dp"
+            android:fontFamily="@font/chewy"
+            android:text="Auliyaa Hanifah R.H. (123180019)"
+            android:textColor="@color/black"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/chewy"
+            android:layout_marginHorizontal="16dp"
+            android:layout_marginTop="6dp"
+            android:text="Nomor HP"
+            android:textSize="20sp"
+            android:layout_marginBottom="0sp"
+            android:textColor="@color/black"
+            />
+        <EditText
+            android:id="@+id/telp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/chewy"
+            android:layout_marginHorizontal="16dp"
+            android:layout_marginTop="6dp"
+            android:text="081567451555"
+            android:textColor="@color/black"
+            />
+        <Button
+            android:id="@+id/btnCall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:backgroundTint="#FF018786"
+            android:textColor="@color/white"
+            android:fontFamily="@font/chewy"
+            android:text="Call"/>
+    </LinearLayout>
+
+</FrameLayout>
